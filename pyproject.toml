@@ -1,0 +1,18 @@
+[project]
+name = "flinkcommerce"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "apache-flink>=2.2.0",
+    "confluent-kafka>=2.13.0",
+    "elasticsearch>=9.3.0",
+    "faker>=40.5.1",
+    "kibana-api>=0.0.4",
+    "psycopg2>=2.9.11",
+    "pyflink>=1.0",
+    "python-dateutil>=2.9.0.post0",
+    "simplejson>=3.20.2",
+    "six>=1.17.0",
+]
